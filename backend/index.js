@@ -24,7 +24,7 @@ import job from "./cron.js";
 dotenv.config();
 configurePassport();
 
-// job.start();
+job.start();
 
 const PORT = process.env.PORT || 4000;
 
